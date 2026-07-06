@@ -7,12 +7,24 @@ import { useCallback, useEffect, useState } from 'react'
 import { Reveal } from '@/components/reveal'
 
 const images = [
-  { src: '/images/corte-1.png', alt: 'Corte low fade com acabamento preciso' },
-  { src: '/images/corte-2.png', alt: 'Barba modelada com skin fade' },
-  { src: '/images/corte-3.png', alt: 'Corte crespo com mid fade e cachos definidos' },
-  { src: '/images/corte-4.png', alt: 'Detalhe de risco desenhado na navalha' },
-  { src: '/images/corte-5.png', alt: 'Corte texturizado com high fade' },
-  { src: '/images/corte-6.png', alt: 'Corte clássico com barba alinhada' },
+  { src: '/images/corte-0.jpg', alt: 'Corte low fade com acabamento preciso' },
+  { src: '/images/corte-1.jpg', alt: 'Barba modelada com skin fade' },
+  { src: '/images/corte-2.jpg', alt: 'Corte crespo com mid fade e cachos definidos' },
+  { src: '/images/corte-3.jpg', alt: 'Detalhe de risco desenhado na navalha' },
+  { src: '/images/corte-4.jpg', alt: 'Corte texturizado com high fade' },
+  { src: '/images/corte-5.jpg', alt: 'Corte clássico com barba alinhada' },
+  { src: '/images/corte-6.jpg', alt: 'Corte moderno com design' },
+  { src: '/images/corte-7.jpg', alt: 'Barba feita com precisão' },
+  { src: '/images/corte-8.jpg', alt: 'Corte com máquina degradê' },
+  { src: '/images/corte-9.jpg', alt: 'Detalhe do acabamento' },
+  { src: '/images/corte-10.jpg', alt: 'Corte para cabelo liso' },
+  { src: '/images/corte-11.jpg', alt: 'Barba completa modelada' },
+  { src: '/images/corte-12.jpg', alt: 'Corte social profissional' },
+  { src: '/images/corte-13.jpg', alt: 'Degradê baixo clássico' },
+  { src: '/images/corte-14.jpg', alt: 'Corte com navalha artístico' },
+  { src: '/images/corte-15.jpg', alt: 'Barba e corte combinados' },
+  { src: '/images/corte-16.jpg', alt: 'Corte para cabelo cacheado' },
+  { src: '/images/corte-17.jpg', alt: 'Acabamento perfeito' },
 ]
 
 export function Gallery() {

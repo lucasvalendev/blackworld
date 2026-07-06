@@ -17,7 +17,7 @@ export function Hero() {
     <section id="inicio" ref={ref} className="relative flex min-h-svh items-end overflow-hidden">
       <motion.div style={{ y }} className="absolute inset-0 -bottom-16">
         <Image
-          src="/images/hero.png"
+          src="/images/hero.jpg"
           alt="Barbeiro da Barbearia Black World sentado na cadeira de barbeiro em um ambiente premium"
           fill
           priority
